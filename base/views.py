@@ -153,3 +153,9 @@ def deleteMessage(request, pk):
         return redirect('home')
 
     return render(request, 'base/delete.html', {'obj': message})
+
+def topicsPage(request):
+    pass
+
+def activityPage(request):
+    pass
